@@ -61,7 +61,6 @@ define softwarecollectionsorg (
     $dist = 'epel'
   }
 
-
   include ::softwarecollectionsorg::util_package
 
   if $scl_url == undef {

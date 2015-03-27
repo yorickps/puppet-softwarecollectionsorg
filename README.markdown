@@ -22,6 +22,10 @@ To install the scl-utils-build package
 
     include softwarecollectionsorg::build_package
 
+Remove the scl-utils package
+
+    class { '::softwarecollectionsorg::utils_package': ensure => absent }
+
 
 ##Limitations
 
