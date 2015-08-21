@@ -72,7 +72,7 @@ define softwarecollectionsorg (
 
   $repo_name = "rhscl-${title}-${dist}-${dist_version}-x86_64"
   yumrepo { $repo_name:
-    ensure   => $ensure,
+#    ensure   => $ensure,
     descr    => $repo_name,
     baseurl  => $baseurl,
     enabled  => $enabled,
